@@ -38,5 +38,7 @@ In most cases, if you're using one of the compatible libraries, your repo will t
 
 For example for a transformers model, anyone can load it with:
 
+```
 tokenizer = AutoTokenizer.from_pretrained("username/repo_name")
 model = AutoModel.from_pretrained("username/repo_name")
+```
